@@ -28,9 +28,9 @@
 
     <script id="navTemplate" type="x-tmpl-mustache">
         <ul class="nav">
-            <li class="navbar-brand">
+            <!-- <li class="navbar-brand">
                 <a class="nav-link active" href="https://twitter.com/taylerjtodd" target="_blank"> @taylerjtodd</a>
-            </li>
+            </li> -->
             {{#categories}}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{label}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,6 +51,7 @@
         {{#paragraphs}}
         <p>{{.}}</p>
         {{/paragraphs}}
+        <small>By Tayler Todd, {{date}}</small>
     </script>
 
     <title>Politics</title>
